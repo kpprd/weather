@@ -28,9 +28,7 @@ def retrieve(URL):
         print 'Error! The link could not be opened! Please check your internet connection.'
         sys.exit(1)
     html = response.read()
-    print html
     response.close()
-    return html.decode('utf-8')
 
 def url_search(location):
     """
