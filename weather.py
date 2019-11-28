@@ -7,6 +7,8 @@ import cPickle as pickle
 import os.path
 import sys
 
+# Oystein Kapperud, 2015
+
 """
 OBS: NOTE THAT THIS PROGRAM WAS WRITTEN FOR PYTHON 2.7
 
