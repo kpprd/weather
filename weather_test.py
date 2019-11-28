@@ -1,6 +1,8 @@
 #!/usr/bin/env python
 # encoding: utf-8
 
+# Oystein Kapperud, 2015
+
 """
 TO RUN TESTS: JUST RUN THIS SCRIPT LIKE AN ORDINARY PYTHON SCRIPT FROM THE COMMAND LINE.
 Like this: python weather_test.py
