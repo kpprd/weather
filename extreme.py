@@ -2,6 +2,8 @@
 # encoding: utf-8
 from weather import Lazy, retrieve, url_search, weather_data, weather_update, testfunc
 
+# Oystein Kapperud, 2015
+
 def extreme():
     """
     No arguments.
