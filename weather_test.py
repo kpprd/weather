@@ -127,7 +127,7 @@ def _doctest():
 print 'PY.TEST TESTS:'
 py.test.cmdline.main(["-v", 'weather_test.py'])
 print 'DOCTEST TESTS:'
-if _doctest()[0]==0: #_doctest()[0] gives the number of failed tests. There's only two doctest in the module, so _doctest()[0]==0 means they both passed. If one or both of the tests failed, doctest will automatically print out a message with more details
+if _doctest()[0]==0: #_doctest()[0] gives the number of failed tests. There are only two doctests in the module, so _doctest()[0]==0 means they both passed. If one or both of the tests failed, doctest will automatically print out a message with more details
     print 'Doctest Lazy and Doctest url_search passed!'
 
 
